@@ -1,7 +1,7 @@
 package seeds
 
 import (
-	"github.com/ilmsg/gorm-seed/internal/models"
+	"github.com/ilmsg/bug-free-happiness/gorm-seed/internal/models"
 	"gorm.io/gorm"
 )
 

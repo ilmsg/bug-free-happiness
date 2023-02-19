@@ -1,7 +1,7 @@
 package seeds
 
 import (
-	"github.com/ilmsg/gorm-seed/pkg/seed"
+	"github.com/ilmsg/bug-free-happiness/gorm-seed/pkg/seed"
 	"gorm.io/gorm"
 )
 
