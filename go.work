@@ -1,3 +1,6 @@
 go 1.19
 
-use ./gorm-seed
+use (
+	./gorm-seed
+	./kafka-consumer-group
+)
