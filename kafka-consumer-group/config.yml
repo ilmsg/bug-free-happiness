@@ -1,0 +1,10 @@
+kafka:
+  servers: 
+    - localhost:9092
+    - localhost:9093
+  group: demo
+  user: demo
+  password: demo
+  
+  topic1: topic1
+  topic2: topic2
