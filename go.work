@@ -1,8 +1,9 @@
 go 1.19
 
 use (
-	./queue
 	./gorm-seed
 	./gqlgen-todos
 	./kafka-consumer-group
+	./queue
+	./quiz
 )
