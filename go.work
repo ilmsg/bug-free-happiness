@@ -3,6 +3,7 @@ go 1.19
 use (
 	./gorm-seed
 	./gqlgen-todos
+	./grpc-calculator
 	./httptest
 	./kafka-consumer-group
 	./queue

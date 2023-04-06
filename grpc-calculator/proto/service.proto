@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "./proto";
+
+message CalRequest {
+    int64 a = 1;
+    int64 b = 2;
+}
+
+message CalResponse {
+    int64 result = 1;
+}
+
+service CalService {
+    rpc Add(CalRequest) returns (CalResponse);
+    rpc Subtract(CalRequest) returns (CalResponse);
+}
