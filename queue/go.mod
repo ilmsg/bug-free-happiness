@@ -1,3 +1,3 @@
 module github.com/ilmsg/bug-free-happiness/animal-restaurant-queue
 
-go 1.19
+go 1.20

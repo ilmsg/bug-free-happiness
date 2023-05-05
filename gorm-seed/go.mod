@@ -1,6 +1,6 @@
 module github.com/ilmsg/bug-free-happiness/gorm-seed
 
-go 1.19
+go 1.20
 
 require (
 	gorm.io/driver/mysql v1.4.7
