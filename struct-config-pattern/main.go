@@ -49,6 +49,13 @@ func NewServer(opts ...OptFunc) *Server {
 }
 
 func main() {
-	s := NewServer(withTLS, withID("xyz"), withMaxConn(99))
+	s := NewServer()
+	fmt.Printf("%+v\n", s)
+
+	s = NewServer(
+		withTLS,
+		withID("xyz"),
+		withMaxConn(99),
+	)
 	fmt.Printf("%+v\n", s)
 }

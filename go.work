@@ -1,6 +1,7 @@
 go 1.20
 
 use (
+	./cache-api
 	./gorm-seed
 	./gqlgen-todos
 	./grpc-calculator
@@ -8,5 +9,6 @@ use (
 	./kafka-consumer-group
 	./queue
 	./quiz
+	./strategy-pattern
 	./struct-config-pattern
 )
