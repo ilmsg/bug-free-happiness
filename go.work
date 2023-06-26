@@ -2,6 +2,13 @@ go 1.20
 
 use (
 	./cache-api
+	./go-by-example/hello-world
+	./go-by-example/values
+	./go-by-example/variables
+	./go-web-examples/http-server
+	./go-web-examples/mysql-database
+	./go-web-examples/routes-using-gorilla-mux
+	./go-web-examples/templates
 	./gorm-seed
 	./gqlgen-todos
 	./grpc-calculator
@@ -9,6 +16,7 @@ use (
 	./kafka-consumer-group
 	./queue
 	./quiz
+	./server-sent-events
 	./strategy-pattern
 	./struct-config-pattern
 )
