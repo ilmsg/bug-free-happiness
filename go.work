@@ -1,22 +1,44 @@
 go 1.20
 
 use (
+	./adapter-pattern-mediaplayer
+	./atomic-values
+	./bendavis/channel
+	./bendavis/mutex
+	./bendavis/waitgroup
+	./builder-pattern/builder1
+	./builder-pattern/builder2
 	./cache-api
+	./concurrency-tick
 	./go-by-example/hello-world
 	./go-by-example/values
 	./go-by-example/variables
+	./go-web-examples/advanced-middleware
+	./go-web-examples/basic-middleware
+	./go-web-examples/forms
 	./go-web-examples/http-server
 	./go-web-examples/mysql-database
 	./go-web-examples/routes-using-gorilla-mux
+	./go-web-examples/sessions
+	./go-web-examples/static-files
 	./go-web-examples/templates
 	./gorm-seed
 	./gqlgen-todos
 	./grpc-calculator
 	./httptest
 	./kafka-consumer-group
+	./learn-x-in-y-minutes
+	./observer-pattern
 	./queue
 	./quiz
+	./restful-api-gin-mongo
+	./ruslan-tsyganok/grpc
+	./ruslan-tsyganok/grpc-gateway
+	./ruslan-tsyganok/viper
 	./server-sent-events
+	./sleep-hack
+	./slice-hack
 	./strategy-pattern
 	./struct-config-pattern
+	./tiktoklive/demo
 )

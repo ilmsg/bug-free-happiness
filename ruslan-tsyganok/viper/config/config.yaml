@@ -1,0 +1,6 @@
+server:
+  host: "localhost"
+  port: "9999"
+database:
+  host: "db.host"
+  port: "5432"
