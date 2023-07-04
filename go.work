@@ -1,7 +1,7 @@
 go 1.20
 
 use (
-	./adapter-pattern-mediaplayer
+	./mehran/adapter-pattern-mediaplayer
 	./atomic-values
 	./bendavis/channel
 	./bendavis/mutex
@@ -28,7 +28,7 @@ use (
 	./httptest
 	./kafka-consumer-group
 	./learn-x-in-y-minutes
-	./observer-pattern
+	./mehran/observer-pattern
 	./queue
 	./quiz
 	./restful-api-gin-mongo
