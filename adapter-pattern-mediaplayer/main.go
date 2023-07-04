@@ -45,7 +45,7 @@ func (a *AudioPlayer) Play(audioType string, fileName string) error {
 		fmt.Printf("Playing mp3 file. Name: %s\n", fileName)
 		return nil
 	} else if audioType == "vlc" || audioType == "mp4" {
-		a.mediaAdapter = &MediaPlayer{&VLCPlayer{}}
+		a.mediaAdapter = &MediaAdapter{&VLCPlayer{}}
 		return a.mediaAdapter.Play(audioType, fileName)
 	}
 	return fmt.Errorf("invalid media. %s format not supported", audioType)
