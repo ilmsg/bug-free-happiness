@@ -1,15 +1,20 @@
 go 1.20
 
 use (
-	./mehran/adapter-pattern-mediaplayer
 	./atomic-values
 	./bendavis/channel
 	./bendavis/mutex
 	./bendavis/waitgroup
+	./bugbytes/gohtmx
 	./builder-pattern/builder1
 	./builder-pattern/builder2
 	./cache-api
+	./cafe/di
 	./concurrency-tick
+	./effective-go/allocation-make
+	./fiberoptic/fiber-template
+	./fiberoptic/fiber-template-blog
+	./fiberoptic/fiber-template-layout
 	./go-by-example/hello-world
 	./go-by-example/values
 	./go-by-example/variables
@@ -28,7 +33,10 @@ use (
 	./httptest
 	./kafka-consumer-group
 	./learn-x-in-y-minutes
+	./map-demo
+	./mehran/adapter-pattern-mediaplayer
 	./mehran/observer-pattern
+	./microauth
 	./queue
 	./quiz
 	./restful-api-gin-mongo
