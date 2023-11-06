@@ -1,4 +1,4 @@
-go 1.20
+go 1.21.1
 
 use (
 	./atomic-values
@@ -46,6 +46,7 @@ use (
 	./server-sent-events
 	./sleep-hack
 	./slice-hack
+	./migration-cli
 	./strategy-pattern
 	./struct-config-pattern
 	./tiktoklive/demo
