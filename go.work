@@ -15,6 +15,7 @@ use (
 	./fiberoptic/fiber-template
 	./fiberoptic/fiber-template-blog
 	./fiberoptic/fiber-template-layout
+	./getting-started-go-influxdb
 	./go-by-example/hello-world
 	./go-by-example/values
 	./go-by-example/variables
@@ -37,16 +38,17 @@ use (
 	./mehran/adapter-pattern-mediaplayer
 	./mehran/observer-pattern
 	./microauth
+	./migration-cli
 	./queue
 	./quiz
 	./restful-api-gin-mongo
+	./richmenu
 	./ruslan-tsyganok/grpc
 	./ruslan-tsyganok/grpc-gateway
 	./ruslan-tsyganok/viper
 	./server-sent-events
 	./sleep-hack
 	./slice-hack
-	./migration-cli
 	./strategy-pattern
 	./struct-config-pattern
 	./tiktoklive/demo

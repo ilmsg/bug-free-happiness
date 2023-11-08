@@ -3,7 +3,7 @@ module github.com/ilmsg/cache-api
 go 1.20
 
 require (
-	github.com/gofiber/fiber/v2 v2.45.0
+	github.com/gofiber/fiber/v2 v2.47.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 )
 
@@ -22,5 +22,5 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.47.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 )

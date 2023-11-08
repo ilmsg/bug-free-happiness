@@ -3,7 +3,7 @@ module github.com/ilmsg/microauth
 go 1.20
 
 require (
-	golang.org/x/crypto v0.6.0
+	golang.org/x/crypto v0.14.0
 	gorm.io/gorm v1.25.2
 )
 

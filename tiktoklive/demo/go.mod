@@ -10,7 +10,7 @@ require (
 	github.com/gobwas/ws v1.1.0 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 )
