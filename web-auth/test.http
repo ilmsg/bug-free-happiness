@@ -1,0 +1,18 @@
+
+GET http://localhost:7001/v1/book/1449311601
+
+### 
+GET http://127.0.0.1:7001/v1/book/1449311601
+Authorization: Basic scott:tiger
+
+###
+
+GET http://127.0.0.1:7001/v1/auth/token 
+Authorization: Basic scott:tiger
+
+###
+
+GET http://localhost:7001/v1/book/1449311601
+Authorization: Bearer ee38b5eb-6707-4862-8f72-ef9723138e1f
+
+

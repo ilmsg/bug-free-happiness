@@ -54,5 +54,6 @@ use (
 	./strategy-pattern
 	./struct-config-pattern
 	./tiktoklive/demo
+	./web-auth
 	./websocket-message
 )
