@@ -2,6 +2,7 @@ go 1.21.1
 
 use (
 	./atomic-values
+	./atourofslog
 	./bendavis/channel
 	./bendavis/mutex
 	./bendavis/waitgroup
@@ -17,6 +18,12 @@ use (
 	./fiberoptic/fiber-template-blog
 	./fiberoptic/fiber-template-layout
 	./getting-started-go-influxdb
+	./go-by-example/channel-buffering
+	./go-by-example/channel-synchronization
+	./go-by-example/channels
+	./go-by-example/errors
+	./go-by-example/generics
+	./go-by-example/goroutines
 	./go-by-example/hello-world
 	./go-by-example/values
 	./go-by-example/variables
@@ -37,6 +44,7 @@ use (
 	./kafka-consumer-group
 	./learn-x-in-y-minutes
 	./map-demo
+	./markdown-template
 	./mehran/adapter-pattern-mediaplayer
 	./mehran/observer-pattern
 	./microauth

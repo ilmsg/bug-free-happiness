@@ -8,3 +8,5 @@ require (
 	github.com/shaj13/go-guardian/v2 v2.11.5
 	github.com/shaj13/libcache v1.2.1
 )
+
+require github.com/stretchr/testify v1.8.3 // indirect
