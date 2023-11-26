@@ -11,7 +11,12 @@ use (
 	./builder-pattern/builder2
 	./cache-api
 	./cafe/di
+	./channel-waitgroup
 	./concurrency-tick
+	./ddebug
+	./dp
+	./dp/sp/di
+	./dp/sp/di2
 	./easy-issues
 	./effective-go/allocation-make
 	./fiberoptic/fiber-template
@@ -43,12 +48,16 @@ use (
 	./httptest
 	./kafka-consumer-group
 	./learn-x-in-y-minutes
+	./lockable-type
 	./map-demo
 	./markdown-template
 	./mehran/adapter-pattern-mediaplayer
 	./mehran/observer-pattern
 	./microauth
 	./migration-cli
+	./panic-recovery
+	./panpito/decorator
+	./ppprof
 	./queue
 	./quiz
 	./restful-api-gin-mongo

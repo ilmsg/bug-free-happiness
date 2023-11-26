@@ -33,6 +33,14 @@ func (c *UserController) Create(w http.ResponseWriter, r *http.Request) {
 func (c *UserController) Delete(w http.ResponseWriter, r *http.Request) {
 	id := r.URL.Query().Get("id")
 
+	// if id, ok := r.URL.Query(); !ok {
+	// 	http.Error(w, "id exists", http.StatusInternalServerError)
+	// 	return
+	// }
+
+	// queryValue := r.URL.Query()
+	// id := queryValue.Get("id")
+
 	userId, err := strconv.ParseInt(id, 10, 64)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
